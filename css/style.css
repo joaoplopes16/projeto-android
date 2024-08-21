@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Share+Tech+Mono&display=swap');
+
+:root{
+    --cor0: rgb(163, 231, 146);
+    --cor1: rgb(1, 58, 1);
+}
+body{
+    margin: 0;
+    background-color: var(--cor0);
+    
+}
+header{
+    background-image: linear-gradient(to bottom, green,rgb(1, 77, 1),rgb(0, 59, 0));
+    padding: 15px;
+    font-family:'Share Tech Mono', monospace;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    text-align: left;
+
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+.link:hover{
+    text-decoration: underline;
+    background-color: rgba(0, 128, 0, 0.527);
+    padding: 10px 20px 10px 20px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    min-width: 350px;
+    max-width: 800px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: auto;
+    margin-top: 0;
+    
+}
+main img{
+    width: 100%;
+}
+
+.video{
+    width: 100%;
+}
+.t1{
+    font-family:'Share Tech Mono', monospace; 
+    margin-top: 0;
+    color: var(--cor1);
+
+}
+h2{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right, rgb(47, 155, 47), white);
+    color: var(--cor1);
+}
+.fora{
+    text-decoration: none;
+}
+mark{
+    background-color: rgb(79, 218, 79);
+}
+aside{
+    background-color: rgb(122, 240, 151);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+aside > h3{
+    background-color: rgb(46, 128, 46);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul{
+    list-style-type: "\2714\00a0" ;
+    columns: 2;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+}
